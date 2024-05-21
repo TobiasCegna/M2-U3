@@ -45,12 +45,33 @@ lista-novedades li a:hover img {
     opacity: 1;
 }
 .imagen {
-    width: 2000px;
+    width: 500px;
     display: flex;
     flex-direction: row;
     align-items: flex-end;
+    text-align:right;
 }
 
 .testimonios {
+    text-align:left;
+}
+
+.carousel-item {
+    width: 150px;
     text-align: center;
+}
+
+.staff {
+    background: #efefef;
+}
+.mapa iframe{
+width: 100%;
+aspect-ratio: 1.2;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.scroll_section {
+ scroll-margin-top: 60px;
 }
